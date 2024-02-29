@@ -1,4 +1,9 @@
-# Import the HttpResponse class from the django.http module.
+"""
+This module contains the views for the demoapp.
+
+The views in this module handle the HTTP requests and return the corresponding HTTP responses.
+"""
+
 from django.http import HttpResponse
 
 def polo_view(request): # pylint: disable=unused-argument
